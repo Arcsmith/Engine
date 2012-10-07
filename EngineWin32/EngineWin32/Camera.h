@@ -4,7 +4,7 @@
 #include <D3DX10math.h>
 #include "RenderObject.h"
 
-class Camera : RenderObject
+class Camera : GameObject
 {
 public:
 	Camera();

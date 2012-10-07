@@ -1,6 +1,9 @@
 #include "GameObject.h"
 
-class RenderObject : GameObject
+class RenderObject : protected GameObject
 {
-	
+public:
+	RenderObject();
+	RenderObject(const RenderObject&);
+	~RenderObject();
 };

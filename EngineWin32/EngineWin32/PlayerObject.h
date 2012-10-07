@@ -2,5 +2,7 @@
 
 class PlayerObject : RenderObject
 {
-	
+	PlayerObject();
+	PlayerObject(const PlayerObject&);
+	~PlayerObject();
 };

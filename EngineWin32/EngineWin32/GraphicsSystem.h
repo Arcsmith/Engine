@@ -2,8 +2,8 @@
 #define _GRAPHICSSYSTEM_H_
 
 #include <Windows.h>
+#include "D3DRenderer.h"
 #include "Camera.h"
-
 
 const bool FULL_SCREEN = false;
 const bool VYSNCE_ENABLED = true;
@@ -21,6 +21,7 @@ public:
 	void Shutdown();
 	bool Frame();
 
+	D3DRenderer* renderer;
 	Camera* camera;
 
 private:
